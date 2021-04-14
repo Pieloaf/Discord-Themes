@@ -10,8 +10,8 @@ You will need something like [BetterDiscord](https://github.com/BetterDiscord/In
 
 ### Dribbblish (Horizon)
 
-![](./screenshots/Dribbblish/Discord.png)
+![](./screenshots/Dribbblish/discord.png)
 
-![](./screenshots/Dribbblish/profile-popout.gif =200x)
+![](./screenshots/Dribbblish/profile-popout.gif)
 
-![](./screenshots/Dribbblish/full-profile.gif =200x)
+![](./screenshots/Dribbblish/full-profile.gif)
