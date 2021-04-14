@@ -1,0 +1,380 @@
+/**
+ * @name Dribbblish Horizon
+ * @description A theme to match the spicetify Dribbblish theme with Horizon colour scheme
+ * @author Pieloaf
+ * @version 1.0.0
+ * @authorId 439364864763363363
+ * @invite Jx3TjNS
+ * @website https://pieloaf.github.io/links/
+**/
+
+:root {
+  --bg: #474a60; /* secondary_bg */
+  --bg-selected: #f0938331; /* pressing_button_fg + 31 */
+
+  --fg: #232530; /* main_bg */
+  --fg-trans: #232530a0; /* main_bg + e0*/
+  --hover: #303343; /* sidebar_indicator_and_hover_button_bg */
+
+  --text: #1d8991; /* main_fg */
+  --alt-text: #f9cec3; /* secondary_fg */
+  --media-bg: #2e303e; /* slider_bg */
+  --buttons: #d4516f;
+}
+
+/* Styling the Chat box and Side bar */
+.base-3dtUhz {
+  border-radius: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  background-color: var(--fg);
+  margin-right: 11px;
+  margin-left: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+.base-3dtUhz *,
+.container-1r6BKw.themed-ANHk51,
+.theme-dark .container-1D34oG,
+.theme-dark .pageWrapper-1PgVDX,
+.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2
+  .listContent-2_qb-y {
+  background-color: transparent;
+}
+
+.expandedFolderBackground-1cujaW .da-expandedFolderBackground{
+  background-color: red;
+}
+/* Background */
+.layers-3iHuyZ {
+  background-color: var(--bg);
+}
+/* Server List */
+.wrapper-3NnKdC.da-wrapper.guilds-1SWlCJ,
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih {
+  background-color: transparent;
+  margin-bottom: 11px;
+  margin-left: 2px;
+}
+.wrapper-3NnKdC.da-wrapper.guilds-1SWlCJ.da-guilds{
+  background-color: transparent;
+}
+.expandedFolderBackground-1cujaW.da-expandedFolderBackground{
+  background-color: var(--fg-trans);
+}
+/* unread marker */
+.item-2hkk8m {
+  background-color: var(--alt-text);
+}
+/* Expanded Folder BG */
+.expandedFolderBackground-2sPsd- {
+  background-color: transparent;
+}
+.expandedFolderIconWrapper-1xLaU- {
+  scale: 1.2;
+}
+
+.avatarSpeaking-2c8-9i.da-avatarSpeaking{
+  box-shadow: none;
+}
+
+.wrapper-1Rf91z.guilds-1SWlCJ {
+  background-color: transparent;
+}
+
+/* Shadow from my profile to sidebar */
+.panels-j1Uci_ {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+.selected-aXhQR6 .layout-2DM8Md {
+  background-color: var(--hover);
+  opacity: 1;
+}
+
+/* DM Selected, Channel Title, Selected Channel */
+.selected-aXhQR6 .name-uJV0GL,
+.title-29uC1r.base-1x0h_U.size16-1P40sf,
+.cursorPonter-YEp76E.title-29uC1r.base-1x0h_U.size16-1P40sf,
+.containerDefault-1ZnADq.selected-37j_iU
+  .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_
+  .content-3at_AU
+  .name-3_Dsmg.overflow-WK9Ogt {
+  color: var(--text);
+}
+/*// Chat Elements //*/
+
+/* Text Colour */
+.name-3YKhmS,
+.name-3_Dsmg.overflow-WK9Ogt,
+.markup-2BOw-j.messageContent-2qWWxC {
+  color: var(--alt-text);
+}
+
+/* Username in chat */
+.username-1A8OIy.clickable-1bVtEA.focusable-1YV_-H {
+  font-weight: 700;
+  color: var(--alt-text);
+}
+
+/* embed & emoji picker*/
+.search-36MZv-,
+.embedWrapper-lXpS3L.embedFull-2tM8--.embed-IeVjo6.markup-2BOw-j,
+.drawerSizingWrapper-17Mss4 {
+  background-color: var(--fg-trans);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+}
+/* message box */
+.scrollableContainer-2NUZem.webkit-HjD9Er {
+  background-color: var(--fg);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
+/* Emoji Picker Round */
+.drawerSizingWrapper-17Mss4 {
+  border-radius: 10px;
+}
+/* unread message stuffs */
+.unread-3zKkbm,
+.bar-30k2ka,
+.unread-1xRYoj.active-1SSsBb,
+.barBase-39XTcM {
+  background-color: var(--text);
+}
+.bar-30k2ka,
+.unread-1xRYoj.active-1SSsBb,
+.barButtonBase-3UKlW2 {
+  color: var(--alt-text);
+}
+.iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA
+  .content-3at_AU
+  .name-3_Dsmg.overflow-WK9Ogt {
+  color: var(--buttons);
+}
+[class*="icon-1_QxNX"],
+.children-Bmpf2Q * {
+  color: var(--text);
+}
+/*// Search //*/
+/*search options menu*/
+.theme-dark .container-3ayLPN {
+  background-color: var(--fg-trans);
+  backdrop-filter: blur(2px);
+}
+/* text */
+
+.theme-dark .searchOption-zQ-1l6 .answer-1n6g43,
+.theme-dark .option-96V44q .filter-3Y_im- {
+  color: var(--alt-text);
+}
+
+.public-DraftStyleDefault-block span.searchFilter-2ESiM3 {
+  color: var(--text);
+}
+.public-DraftStyleDefault-block:not(.searchFilter-2ESiM3),
+.searchAnswer-3Dz2-q {
+  color: var(--alt-text);
+}
+/*selected options*/
+.theme-dark .option-96V44q.selected-rZcOL-,
+.theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .searchFilter-2ESiM3 {
+  background-color: var(--hover);
+}
+/* Search Results */
+.searchResult-9tQ1uo.expanded-w_LCGl,
+.messageGroupCozy-2-Q370.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica,
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+  background-color: var(--fg);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+}
+.sibling-1eJVjd.before-2RL1Gz {
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+.searchResult-9tQ1uo::before,
+.searchResult-9tQ1uo::after {
+  display: none;
+}
+/*// Other //*/
+/* Misc Glows */
+.children-19S4PO:after,
+.theme-dark .option-96V44q:after, /*search*/
+.form-2fGMdU:before /*Chat*/ {
+  display: none;
+}
+/* Media Controls */
+.mediaBarWrapper-3D7r67.fakeEdges-27pgtp {
+}
+
+/* Channel Description */
+.focusLock-Ns3yie
+  .modal-1sor29.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+  background-color: var(--fg-trans);
+}
+.content-38qMG0,
+.title-3sZWYQ {
+  color: var(--alt-text);
+}
+/* Bot Tag */
+[class*="botTag"] {
+  background-color: var(--buttons);
+  color: var(--alt-text);
+}
+/* Stream and Cam buttons */
+.buttonColor-7qQbGO.button-38aScr {
+  background-color: var(--buttons);
+  color: var(--alt-text);
+}
+/* inline code */
+.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs {
+  background-color: var(--fg-trans);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+}
+.circleIconButton-jET_ig.selected-ugP_am,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9.acronym-2mOFsV {
+  background-color: var(--bg-selected);
+  color: var(--alt-text);
+  font-weight: 900;
+}
+.circleIconButton-jET_ig,
+.childWrapper-anI2G9 {
+  color: var(--alt-text);
+}
+/* .unread-3zKkbm {
+  background-color: var(--alt-text);
+} */
+
+/*// User Pop Out //*/
+
+/* BG and Shape */
+.userPopout-3XzG_A {
+  background-color: var(--fg-trans);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+/* Pop Out Background */
+.theme-dark .footer-1fjuF6,
+.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2,
+.header-2BwW8b.size16-14cGz5 {
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+}
+
+/* Profile Pic */
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478 .wrapper-3t9DeA {
+  margin-top: -20px;
+  width: 250px !important;
+  height: 250px !important;
+}
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478
+  .wrapper-3t9DeA
+  .mask-1l8v16.svg-2V3M55
+  foreignObject {
+  mask: NONE;
+}
+
+/*online status*/
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478
+  .wrapper-3t9DeA
+  .mask-1l8v16.svg-2V3M55
+  .pointerEvents-2zdfdO {
+  mask: NONE;
+  width: 80px;
+  height: 2px;
+  x: 0;
+  y: 78.5;
+}
+
+/* view profile */
+/* fixing mask */
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478
+  .avatarHint-1qgaV3
+  foreignObject {
+  mask: NONE;
+}
+
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478 .avatarHint-1qgaV3 {
+  margin-top: -25px;
+  width: 250px !important;
+  height: 250px !important;
+}
+
+/* font */
+.avatarHintInner-Dco91E.size10-39i14u.height12-2Ltw-k {
+  font-weight: 100;
+}
+
+/* name stuff */
+.headerTagWithNickname-3IthZD.headerTag-2pZJzA.size14-3iUx6q.nameTag-m8r81H {
+  margin-bottom: -6px;
+  width: 250px !important;
+  height: 25px !important;
+}
+.headerTagNoNickname-ENx6no.headerTag-2pZJzA.size14-3iUx6q.nameTag-m8r81H {
+  margin-bottom: -10px;
+  width: 250px !important;
+  height: 25px !important;
+}
+
+/*Stauts */
+.customStatus-1bh2V9 {
+  text-align: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* Role Colour */
+.roleName-32vpEy {
+  color: var(--alt-text);
+}
+
+.input-cIJ7To:focus,
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+  background-color: #00000037;
+  border-color: var(--hover);
+}
+/*// View Profile Card //*/
+[class*="topSection"] {
+  background-color: var(--fg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.body-3ND3kc {
+  background-color: transparent;
+}
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.root-SR8cQa {
+  background-color: var(--bg);
+}
+
+/* (profileBadge:avatar) */
+.avatar-3EQepX {
+  /**/
+  margin-top: -7px;
+  margin-bottom: 10px;
+  width: 80px !important;
+  height: 80px !important;
+  transition: 300ms;
+}
+/* (profileBadge:avatar):hover */
+.avatar-3EQepX:hover {
+  /**/
+
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.membersWrap-2h-GB4.da-membersWrap.hiddenMembers-2dcs_q.da-hiddenMembers{
+  box-shadow: -2px 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.content-3YMskv.da-content{
+  background-color: transparent;
+}
+.scroller-2LSbBU.da-scroller.auto-Ge5KZx.scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar{
+  display: none;
+}
